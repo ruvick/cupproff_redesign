@@ -62,22 +62,18 @@ if (sliderScrollItems.length > 0) {
 function sliders_bild_callback(params) { }
 
 // Сюда пишем класс нашего слайдера и меняем переменную
-let aboutSlider = new Swiper('.about__slider', {
-	effect: 'fade',
-	fadeEffect: {
-		crossFade: true
+let sliderBg = new Swiper('.slider-bg', {
+	// effect: 'fade',
+	autoplay: {
+		delay: 3000,
+		disableOnInteraction: false,
 	},
-
-	// autoplay: {
-	// 	delay: 2000,
-	// 	disableOnInteraction: false,
-	// },
 
 	observer: true,
 	observeParents: true,
 	slidesPerView: 1,
 	spaceBetween: 0,
-	autoHeight: true,
+	// autoHeight: true,
 	speed: 2000,
 	//touchRatio: 0,
 	//simulateTouch: false,
@@ -91,8 +87,8 @@ let aboutSlider = new Swiper('.about__slider', {
 	//},
 	// Arrows
 	navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev',
+		nextEl: '.slider-main-next',
+		prevEl: '.slider-main-prev',
 	},
 	/*
 	breakpoints: {
