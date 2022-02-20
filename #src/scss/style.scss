@@ -255,14 +255,14 @@ h4 {
 .swiper-button-block {
 	display: flex;
 	justify-content: space-between;
-	width: 130px;
+	width: 100%;
 }
 
 .slider-bg__swiper-button-block {
-	display: block;
-	position: absolute;
-	right: 18%;
-	bottom: 14%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 5%;
 }
 
 .slider-bg__swiper-button-block ._container {
