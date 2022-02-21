@@ -284,6 +284,30 @@ h4 {
 }
 //===================================================================================================================================
 
+.sliders {
+	padding: 65px 0;
+}
+
+.sliders__wrap {
+	display: flex;
+	justify-content: space-between;
+}
+.sliders__item {
+	width: 350px;
+	// height: 350px;
+	overflow: hidden;
+	// border: 1px solid green;
+}
+.sliders-sl {
+
+}
+.sliders__item-img {
+	// height: 350px;
+	// border: 1px solid #000;
+}
+
+//========================================================================================================================================================
+
 .how-work {
 	padding: 65px 0 56px 0;
 }
